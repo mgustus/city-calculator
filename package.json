@@ -2,12 +2,13 @@
   "name": "city-calculator",
   "version": "1.0.0",
   "description": "Http Parser. Parses dira.gov.il lotteries and calculates the odds per city.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node ./generated/index.js"
   },
-  "author": "Michael Gustus",
-  "license": "ISC",
+  "author": {
+    "name": "Michael Gustus",
+    "email": "michael.gustus@gmail.com"
+  },
   "dependencies": {
     "jsdom": "^11.0.0",
     "lodash": "^4.17.4",
